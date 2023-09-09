@@ -1,0 +1,39 @@
+#root {
+  max-width: 1580px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: left;
+  
+  background-attachment: fixed;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/013/819/406/non_2x/set-of-clouds-vector.jpg);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+  
+}
+.card-characters {
+  height: 500px;
+  font-size: small;
+  margin-bottom: auto;
+}
+
+.character-image {
+  height: 300px;
+  width: 200px;
+}
+
+form{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.mb-3{
+  width: 500px;
+  margin-right: 10px;
+}
